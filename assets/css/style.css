@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/blackHawk.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+   /* I chose 65% for the main box as it 
+   seemed aesthetically better than spanning 100% of the screen.  
+   The min-width property is set to 390px to prevent collapsing or text overflow on smaller devices */
+    margin: 0;
+    width: 60%;    
+    min-width: 390px;
+    display: flex;
+    float: none;
+
+   
+}
+
+.panel-title, .btn {
+    font-family: 'Special Elite', cursive;
+  }
+ 
+    .panel-body, .panel-title, .panel-heading, .panel {
+    
+        margin: auto;
+        margin-top: 8px;
+        background-color: darkolivegreen;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: 10px 10px 5px grey;
+        color: whitesmoke;
+    }
+
+
+
+
+
+/* Font families inventory:
+font-family: 'Inconsolata', monospace;
+font-family: 'Michroma', sans-serif;
+font-family: 'Shadows Into Light', cursive; 
+ font-family: 'Special Elite', cursive;
+*/
