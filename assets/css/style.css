@@ -18,33 +18,26 @@ body {
     min-width: 390px;
     display: flex;
     float: none;
-
-   
 }
 
 .panel-title, .btn {
     font-family: 'Special Elite', cursive;
     font-weight: bold;
+   
 }
  
-    .panel-body, .panel-title, .panel-heading, .panel {
+.panel-body, .panel-title, .panel-heading, .panel {
     
-        margin: auto;
-        margin-top: 8px;
-        background-color: darkolivegreen;
-        /* padding: 10px; */
-        border-radius: 4px;
-        box-shadow: 10px 10px 5px;
-        color: whitesmoke;
-    }
-
-
-
-
+    margin: auto;
+    margin-top: 8px;
+    background-color: darkolivegreen;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px;
+    color: whitesmoke;
+    
+}
 
 /* Font families inventory:
-font-family: 'Inconsolata', monospace;
-font-family: 'Michroma', sans-serif;
-font-family: 'Shadows Into Light', cursive; 
+
  font-family: 'Special Elite', cursive;
 */
