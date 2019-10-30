@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- Google Fonts Reference -->
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quantico|Special+Elite|Turret+Road&display=swap"
+        rel="stylesheet">
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,7 +23,7 @@
     <!-- Moment.js Reference -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
-    <title>TrainTime</title>
+    <title>Blackhawk Scheduler</title>
 
 </head>
 
@@ -33,21 +34,30 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <div class="panel-heading panel-title">
-                    <strong>
-                        <h1 style="color:whitesmoke">BLACKHAWK SCHEDULER</h1>
-                    </strong>
+                <div class="row">
+                    <div class="col-lg-12 topRow">
+                        <div class="panel-heading panel-title top-panel">
+                            <strong>
+                                <h1 style="color:whitesmoke">BLACKHAWK SCHEDULER</h1>
+                                <div class="lead">
+                                    Current Time
+                                    <p id="clock"></p>
+                                </div>
+
+                            </strong>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Blackhawk Schedule -->
                 <div class="panel">
                     <div class="panel-heading panel-title">
                         <strong>
-                            <h2>Current Blackhawk Schedule</h2>
+                            <h2>Current Schedule</h2>
                         </strong>
                     </div>
                     <div class="panel-body">
-                        <table class="table table-hover" id='train-table'>
+                        <table class="table table-hover" id="flights-table">
                             <thead>
                                 <tr>
                                     <th>Flight Name</th>
@@ -77,8 +87,8 @@
                         <!-- Entry Form -->
                         <form>
                             <div class="form-group">
-                                <label for="train-name-input">Blackhawk Name</label>
-                                <input type="text" class="form-control" id="train-name-input">
+                                <label for="flight-name-input">Blackhawk Name</label>
+                                <input type="text" class="form-control" id="flight-name-input">
                             </div>
                             <div class="form-group">
                                 <label for="destination-input">Destination</label>
@@ -86,13 +96,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="first-train-input">First Launch Time (HH:mm - military time)</label>
-                                <input type="text" class="form-control" id="first-train-input">
+                                <input type="text" class="form-control" id="first-flight-input">
                             </div>
                             <div class="form-group">
                                 <label for="frequency-input">Frequency (min)</label>
                                 <input type="text" class="form-control" id="frequency-input">
                             </div>
-                            <button type="submit" class="btn btn-danger" id="add-train-btn">
+                            <button type="submit" class="btn btn-danger" id="add-flight-btn">
                                 <h3>Submit</h3>
                             </button>
                         </form>
