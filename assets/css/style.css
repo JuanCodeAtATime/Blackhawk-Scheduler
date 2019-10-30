@@ -24,16 +24,17 @@ body {
 
 .panel-title, .btn {
     font-family: 'Special Elite', cursive;
-  }
+    font-weight: bold;
+}
  
     .panel-body, .panel-title, .panel-heading, .panel {
     
         margin: auto;
         margin-top: 8px;
         background-color: darkolivegreen;
-        padding: 20px;
+        /* padding: 10px; */
         border-radius: 4px;
-        box-shadow: 10px 10px 5px grey;
+        box-shadow: 10px 10px 5px;
         color: whitesmoke;
     }
 
