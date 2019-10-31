@@ -1,6 +1,6 @@
 # Train-Scheduler
 
-Training for this week called for a "Train Schdeuler"  (pun intended).  I chose to spruce it up a bit by making a military themed scheduler for Blackhawks, US Army helicopters.
+Training for this week called for a "Train Scheduler"  (pun intended).  I chose to spruce it up a bit by making a military themed scheduler for Blackhawks, US Army helicopters.
 
 The app features the current time (using moment.js) right below the header title, and has two vertical panel tbles for schedule viewing and booking.  The top panel keeps tracks of all flights.  The would-be flight coordinator could enter new flights on the bottom "Add Flight" panel.
 
