@@ -1,7 +1,3 @@
-/* TO DO BEFORE HW TURN-IN:  
-What:  Fix hover color.  Why:  Currently whites-out the rows
- */
-
 body {
     margin: 0;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/blackHawk.jpg");
@@ -13,41 +9,44 @@ body {
 }
 
 .container {
-   /* I chose 65% for the main box as it 
-   seemed aesthetically better than spanning 100% of the screen.  
-   The min-width property is set to 390px to prevent collapsing or text overflow on smaller devices */
+   /* I chose 55% for the main box as I wanted the background image of
+   Blackhawk helicpoters to also be an attractive feature of the app.    
+   The min-width property is set to 385px to prevent collapsing or text overflow on smaller devices */
     margin: 15px 0px;
     width: 55%;    
-    min-width: 390px;
+    min-width: 385px;
     display: flex;
     float: none;
     padding: 15px;
     color: whitesmoke;
 }
 
+.top-panel, .panel, #background {
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 10px;
+    background-color: darkolivegreen;
+    opacity: 0.83;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+      
+    
+
+}
 #flights-table {
     text-align: justify;
 }
 
 
-.panel-title, .btn {
+.btn, .top-panel, .panel-schedule, .aF {
     font-family: 'Special Elite', cursive;
     font-weight: bold;
    
 }
-
-.panel-body, .panel-title, .panel-heading, .panel {
-    
-    margin: auto;
-    margin-top: 10px;
-    background-color: darkolivegreen;
-    border-radius: 4px;
-    align-content: center;
-    text-align: center;
-    border: 2px solid rgba(0, 0, 0, 0.4);
-    
-}
-
 .lead {
     color: whitesmoke;
     margin: 0;
@@ -59,7 +58,8 @@ body {
     background-color:#36454f;
     display: block;
     padding: 2px;
-    border-radius: 5px;
+    opacity: 0.83;
+    
 }
 
 /* Needed !important value to undue the Bootstrap spell which was whiting-out the rows
@@ -67,14 +67,48 @@ on hover.  Now the text color changes on hover instead of it being all white & u
 tr:hover {
     color: #36454f !important;
     text-decoration: none;    
+    
+}
+a { 
+    text-decoration : none; 
+    color : whitesmoke; 
 }
 
-/* Changed default input field colors from white to charcoal to align with military theme */
+a:link {
+    color: whitesmoke;
+    text-decoration : none; 
+  }
+  
+  a:visited {
+    color: whitesmoke;
+    text-decoration : none; 
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration : none; 
+  }
+
+  a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
+  
+ /* Changed default input field colors from white to charcoal to align with military theme */
 
 #flight-name-input, #destination-input, #first-flight-input, #frequency-input {
     background-color: #36454f;
     color: whitesmoke;
 }
+
+/* A cool strip (horizontal line) to complement the clock strip above it */
+hr.coolHr, hr.coolHr2 {
+    border: 12px solid #36454f;
+    margin: 0 auto;
+    padding-bottom: 0;
+    opacity: 0.83;
+   
+  }
  
 
 /* Font families inventory:

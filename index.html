@@ -35,36 +35,36 @@
             <div class="col-lg-12">
 
                 <div class="row">
-                    <div class="col-lg-12 topRow">
-                        <div class="panel-heading panel-title top-panel">
+                    <div class="col-lg-12">
+                        <div class="top-panel">
                             <strong>
                                 <h1 style="color:whitesmoke">BLACKHAWK SCHEDULER</h1>
                                 <div class="lead">
-                                    Current Time
+                                    Time Now
                                     <p id="clock"></p>
                                 </div>
-
                             </strong>
                         </div>
                     </div>
                 </div>
 
                 <!-- Blackhawk Schedule -->
-                <div class="panel">
-                    <div class="panel-heading panel-title">
+                <div class="panel" id="background">
+                    <div class="panel-schedule">
                         <strong>
-                            <h2>Current Schedule</h2>
+                            <h3>CURRENT SCHEDULE</h3>
                         </strong>
+                        <hr class="coolHr">
                     </div>
                     <div class="panel-body">
                         <table class="table table-hover" id="flights-table">
                             <thead>
                                 <tr>
-                                    <th>Flight Name</th>
-                                    <th>Destination</th>
-                                    <th>Frequency (min)</th>
-                                    <th>Next Arrival</th>
-                                    <th>Min. Away</th>
+                                    <th>FLIGHT NAME</th>
+                                    <th>DESTINATION</th>
+                                    <th>FREQUENCY (min)</th>
+                                    <th>NEXT ARRIVAL</th>
+                                    <th>Min. AWAY</th>
                                 </tr>
 
                             </thead>
@@ -76,14 +76,15 @@
                 </div>
 
                 <!-- Added Flights Go Here  -->
-                <div class="panel">
+                <div class="panel aF" id="background">
                     <div class="panel-heading panel-title">
                         <strong>
-                            <h2>Add Flight</h2>
+                            <h3>ADD FLIGHT</h3>
                         </strong>
+                        <hr class="coolHr2">
                     </div>
-                    <div class="panel-body">
 
+                    <div class="panel-body">
                         <!-- Entry Form -->
                         <form>
                             <div class="form-group">
@@ -95,7 +96,10 @@
                                 <input type="text" class="form-control" id="destination-input">
                             </div>
                             <div class="form-group">
-                                <label for="first-train-input">First Launch Time (HH:mm - military time)</label>
+                                <!-- Included an external resource for military time explanation -->
+                                <label for="first-train-input">First Launch Time (HH:mm -<a
+                                        href="https://militaryconnection.com/military-time/" target="_blank">Military
+                                        time</a>)</label>
                                 <input type="text" class="form-control" id="first-flight-input">
                             </div>
                             <div class="form-group">

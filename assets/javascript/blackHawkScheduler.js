@@ -8,6 +8,7 @@
 
 
 // My web app's Firebase configuration
+console.log(moment().format('HH:mm'))
 
 let firebaseConfig = {
     apiKey: "AIzaSyBqQ1PAEfgwL5tBz2bS_5hW_Fx7P3eQYWo",
@@ -64,7 +65,7 @@ $("#add-flight-btn").on("click", function (event) {
     $("#flight-name-input").val("");
     $("#destination-input").val("");
     $("#first-flight-input").val("");
-    $("#frequency-input").val()("");
+    $("#frequency-input").val("");
 
 });
 
@@ -93,9 +94,9 @@ database.ref().on("child_added", function (childSnapshot) {
     let firstTimeConverted = moment(firstFlightT, "HH:mm").subtract(1, "years");
     console.log(firstTimeConverted);
 
-    // Current Time
-    let currentTime = moment().format("HH:mm");
-    console.log("CURRENT TIME: " + moment(currentTime).format("HH:mm"));
+    // Current Time...Formatted to display time only, but still displays entire date time group :(
+    let currentTime = moment().format('HH:mm');
+    console.log("CURRENT TIME: " + currentTime);
 
     // Difference between the times
     let diffTime = moment().diff(moment(firstTimeConverted), "minutes");
