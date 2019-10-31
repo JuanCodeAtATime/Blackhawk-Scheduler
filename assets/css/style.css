@@ -62,13 +62,16 @@ body {
     
 }
 
-/* Needed !important value to undue the Bootstrap spell which was whiting-out the rows
+/* Needed !important value to undue the evil Bootstrap spell which was whiting-out the rows
 on hover.  Now the text color changes on hover instead of it being all white & unreadable =)  */
 tr:hover {
     color: #36454f !important;
     text-decoration: none;    
     
 }
+
+/* All a selectors below target the military time link.  All these properties had to be efined
+to get rid of the hyperlink's default blue color. */
 a { 
     text-decoration : none; 
     color : whitesmoke; 
@@ -102,7 +105,7 @@ a:link {
 }
 
 /* A cool strip (horizontal line) to complement the clock strip above it */
-hr.coolHr, hr.coolHr2 {
+hr.coolHr {
     border: 12px solid #36454f;
     margin: 0 auto;
     padding-bottom: 0;
