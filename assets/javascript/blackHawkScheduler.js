@@ -71,7 +71,7 @@ $("#add-flight-btn").on("click", function (event) {
 
 // 3. Create Firebase event for adding trains to database and a row in the html when a user adds an entry
 database.ref().on("child_added", function (childSnapshot) {
-    console.log(childSnapshot.val());
+    console.log("BOOOOOOOOOOOOOOOOOOOO" + childSnapshot.val());
 
     // Store everything into a letiable.
     let flightName = childSnapshot.val().name;
