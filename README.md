@@ -10,9 +10,9 @@ This type of project is common in many coding programs (eg, "Train Scheduler"). 
 ## UI/UX Features
 The current time is prominently displayed below the header title, and two panels are used for viewing and scheduling flights. 
 
-The top panel is the flight tracker.  It displays and keeps tracks of all flights. 
+The top panel, labeled, "Current Schedule", tracks the flights.  It displays and keeps tracks of all flights. 
 
-The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., flight name, time of first departure, and flight frequency). These flight details are calculated, then displayed on the flight tracker.
+The bottom panel, labeled, "Add Flight" has input fields.  This is where the would-be flight scheduler would enter new flight details (i.e., flight name, time of first departure, and flight frequency). These flight details are calculated, then displayed on the "Current Schedule" panel.
 
 ## Built With
 * [Moment.js](https://momentjs.com) for time display and manipulation.
