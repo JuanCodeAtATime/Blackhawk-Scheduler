@@ -2,7 +2,7 @@
 - ```Developer: Juan Rivera```
 - ```Date: October 31, 2019```
 
- ![Blackhawk Scheduler, a military-themed transportation scheduler](/assets/images/screenshot.PNG)
+ ![Blackhawk Scheduler, a military-themed transportation scheduler](screenshot.png)
 
 ## Overview
 This type of project is common in many coding programs (eg, "Train Scheduler").  Due to my military background, I thought a military helicopter theme would spruce up the UI instead of the traditional trains which are typically used.
@@ -15,8 +15,8 @@ The top panel is the flight tracker.  It displays and keeps tracks of all flight
 The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., time of first departure, flight name, and flight frequency). These flight details are calculated, then displayed on the scheduler.
 
 ## Built With
-[Moment.js](https://momentjs.com)
-[Firebase](https://www.google.com)
+* [Moment.js](https://momentjs.com)
+* [Firebase](https://www.google.com)
 
 
 ## Watch Demo
