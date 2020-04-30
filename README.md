@@ -5,18 +5,18 @@
  ![Blackhawk Scheduler, a military-themed transportation scheduler](screenshot.PNG)
 
 ## Overview
-This type of project is common in many coding programs (eg, "Train Scheduler").  Due to my military background, I thought a military helicopter theme would spruce up the UI instead of the traditional trains which are typically used.
+This type of project is common in many coding programs (eg, "Train Scheduler").  Due to my military background, I thought a military helicopter theme would spruce up the UX instead of the traditional trains.
 
-## UI Features
+## UI/UX Features
 The current time is prominently displayed below the header title, and two panels are used for viewing and scheduling flights. 
 
 The top panel is the flight tracker.  It displays and keeps tracks of all flights. 
 
-The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., time of first departure, flight name, and flight frequency). These flight details are calculated, then displayed on the scheduler.
+The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., flight name, time of first departur, and flight frequency). These flight details are calculated, then displayed on the flight tracker.
 
 ## Built With
-* [Moment.js](https://momentjs.com)
-* [Firebase](https://www.google.com)
+* [Moment.js](https://momentjs.com) for time computation and tracking.
+* [Firebase](https://www.google.com) for data storage.
 
 
 ## Watch Demo
