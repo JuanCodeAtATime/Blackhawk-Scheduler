@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blackhawk Scheduler 
 - ```Developer: Juan Rivera```
 - ```Date: October 31, 2019```
@@ -22,3 +23,14 @@ The bottom panel has input fields.  Would-be flight schedulers could enter new f
 ## Watch Demo
 [Click here to for demo!](https://drive.google.com/file/d/1n2EfrGH4invRLHbsqosXbFSiuuDlRwb2/view)
 
+=======
+# Train-Scheduler
+
+Training for this week called for a "Train Scheduler"  (pun intended).  I chose to spruce it up a bit by making a military themed scheduler for Blackhawks, US Army helicopters.
+
+The app features the current time (using moment.js) displayed below the header title, and has two vertical panel tables for viewing and schedulinng flights.  The top panel keeps tracks of all flights.  The would-be flight coordinator could enter new flights on the bottom "Add Flight" panel.
+
+This app features Moment.js and the Firebase database by Google.  These tools allow users to input new flights by entering the time of their first, flight name, and the flight frequency.  These variables are then calculated then displayed on the scheduler.  
+
+Completed on 10/31/2019.  Developer:  Juan Rivera, Week 7, Coding Bootcamp at Harvard Extension School.  
+>>>>>>> 3f93e51c6c64450841744c68a6de846673ff4981
