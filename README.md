@@ -5,7 +5,7 @@
  ![Blackhawk Scheduler, a military-themed transportation scheduler](screenshot.PNG)
 
 ## Overview
-This type of project is common in many coding programs (eg, "Train Scheduler").  Due to my military background, I thought a military helicopter theme would spruce up the UX instead of the traditional trains.
+This type of project is common in many coding programs (eg, "Train Scheduler").  Due to my military background, I thought a military helicopter theme would enhance the UX moreso than the traditional train.
 
 ## UI/UX Features
 The current time is prominently displayed below the header title, and two panels are used for viewing and scheduling flights. 
