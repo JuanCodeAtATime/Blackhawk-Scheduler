@@ -18,6 +18,10 @@ The bottom panel has input fields.  Would-be flight schedulers could enter new f
 * [Moment.js](https://momentjs.com) for time display and manipulation.
 * [Firebase](https://www.google.com) for data storage.
 
+## Installation Steps
+1. Git clone with HTTPS to your local machine ```https://github.com/JuanCodeAtATime/Blackhawk-Scheduler.git```
+2. Open ```Blackhawk Scheduler``` folder 
+3. Click ```index.html``` file to launch on your browser
 
 ## Watch Demo
 * [Click here for demo.](https://drive.google.com/file/d/1n2EfrGH4invRLHbsqosXbFSiuuDlRwb2/view)
