@@ -12,13 +12,15 @@ The current time is prominently displayed below the header title, and two panels
 
 The top panel is the flight tracker.  It displays and keeps tracks of all flights. 
 
-The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., flight name, time of first departur, and flight frequency). These flight details are calculated, then displayed on the flight tracker.
+The bottom panel has input fields.  Would-be flight schedulers could enter new flight details (i.e., flight name, time of first departure, and flight frequency). These flight details are calculated, then displayed on the flight tracker.
 
 ## Built With
-* [Moment.js](https://momentjs.com) for time computation and tracking.
+* [Moment.js](https://momentjs.com) for time display and manipulation.
 * [Firebase](https://www.google.com) for data storage.
 
 
 ## Watch Demo
-[Click here to for demo!](https://drive.google.com/file/d/1n2EfrGH4invRLHbsqosXbFSiuuDlRwb2/view)
+* [Click here for demo.](https://drive.google.com/file/d/1n2EfrGH4invRLHbsqosXbFSiuuDlRwb2/view)
+
+* [Click here to visit deployed site!](https://juancodeatatime.github.io/Blackhawk-Scheduler/)
 
